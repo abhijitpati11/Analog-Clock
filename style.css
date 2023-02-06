@@ -161,7 +161,7 @@ body {
 }
 
 .clock .second {
-  background-color: red;
+  background-color: yellow;
   height: 43%;
   width: 1.6px;
 }
