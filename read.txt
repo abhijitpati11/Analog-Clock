@@ -1,0 +1,29 @@
+{
+  this is a simple analog clock we first learn how to design this 
+  and then we will upgrade to a better clock
+}
+
+
+{
+  Expectation : in the end i want to have a navBar with light mode
+  and dark mode and some options with the coutry to view times
+  according to countries
+}
+
+{
+  here the clock is round so how do we fix it
+  we can simply style body position:relative and the number as 
+  absolute, and text align center so all the numbers are now lying 
+  in the center of the circle
+}
+
+
+{
+  now to place the numbers in their respective places we will use the transform
+  property which will simply tilt the numbers
+  for each number we will use the variable property
+  transform: rotate(var(--rotation)); with initial value as 0
+
+  now for every numbers we will pass the degree of rotaion :  
+    .clock .number-1 {--rotation: 30deg;}
+}
